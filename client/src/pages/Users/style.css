@@ -1,0 +1,68 @@
+/* .table {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 90%;
+    margin: 20px auto;
+    border: 1px solid black;
+    color: white;
+  
+  }
+  
+  .table .rider_img,
+  .table .user_img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+  }
+  
+  .tr {
+    border: 1px solid #8080808f;
+    display: flex;
+    min-width: 50px;
+  }
+  
+  .tr:nth-child(odd) {
+    background-color: red;
+  }
+  .td a{
+    font-weight: bold;
+  }
+  .th {
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 200px;
+  }
+  
+  .th,
+  .td {
+    padding: 10px;
+    min-width: 60px;
+    font-size: 13px;
+    word-break: break-word;
+    width: 100%;
+    text-align: center;
+  }
+   */
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+td:first-child {
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
