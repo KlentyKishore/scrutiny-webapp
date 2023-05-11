@@ -8,7 +8,7 @@ const app = express();
 const passport = require("./passport");
 const routes = require("./routes");
 
-const PORT = process.env.PORT || 3001;
+const PORT = 8081;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());  
@@ -43,7 +43,7 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
-app.listen(8081, () => {
+app.listen(PORT, () => {
   console.log(`🌎 ==> API server now on port ${PORT}!`);
 });
 

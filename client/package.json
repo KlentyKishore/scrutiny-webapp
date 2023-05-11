@@ -1,6 +1,9 @@
 {
   "name": "Scrutiny",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=18.16.0"
+  },
   "proxy": "http://localhost:8081/",
   "description": "Discussy a website for sharing question",
   "main": "index.js",
