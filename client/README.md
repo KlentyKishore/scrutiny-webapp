@@ -1,3 +1,0 @@
-# Scrutiny
-
-Impact region assist
